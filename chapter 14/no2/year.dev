@@ -1,6 +1,6 @@
 [Project]
-FileName=Numbers.dev
-Name=Numbers
+FileName=year.dev
+Name=year
 Type=1
 Ver=2
 ObjFiles=
@@ -51,7 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=main.cpp
+FileName=year.h
 CompileCpp=1
 Folder=
 Compile=1
@@ -61,7 +61,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit2]
-FileName=Untitled2.cpp
+FileName=year.cpp
 CompileCpp=1
 Folder=
 Compile=1
@@ -71,7 +71,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit3]
-FileName=Untitled3.cpp
+FileName=main.cpp
 CompileCpp=1
 Folder=
 Compile=1
