@@ -1,5 +1,6 @@
-#define car_hpp
 #ifndef car_hpp
+#define car_hpp
+
 #include <iostream>
 #include <string>
 using namespace std;
@@ -12,13 +13,12 @@ class Car{
 	public:
 		Car();
 		Car(int yearModel, string make);
-		void getSpeed();
-		void getYearModel();
-		void getMake();
-		void setSpeed();
-		void acceleration();
-		void brake();
-		void display();
+		int getSpeed();
+		int getYearModel();
+		string getMake();
+		int acceleration();
+		int brake();
+		void display(int);
 };
 
 #endif /*car_hpp*/

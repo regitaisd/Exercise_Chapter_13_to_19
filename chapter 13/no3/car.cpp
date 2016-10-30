@@ -12,33 +12,29 @@ Car::Car(){
 Car::Car(int yearModel, string make){
 	this -> yearModel = yearModel;
 	this -> make = make;
-	this -> speed = 0;
 }
 
-void Car::getYearModel(){
+int Car::getYearModel(){
 	return yearModel;
 }
 
-void Car::getMake(){
+string Car::getMake(){
 	return make;
 }
 
-void Car::getSpeed(){
+int Car::getSpeed(){
 	return speed;
 }
 
-void Car::setSpeed(){
-	this -> speed = speed;
+int Car::acceleration(){
+	return speed += 5;
 }
 
-void Car::acceleration(){
-	return speed + 5;
+int Car::brake(){
+	return speed -= 5;
 }
 
-void Car::brake(){
-	return speed - 5;
-}
-
-void Car::display(){
+void Car::display(int x){
+	cout << "the current speed " << x << " is: " << this -> speed << endl;
 	
 }
