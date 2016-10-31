@@ -49,18 +49,18 @@ stateSupervisor::stateSupervisor(string name, int ID, int dateHired, double sala
 	bonus = bonus;
 }
 
-void setSalary(double salary){
+void stateSupervisor::setSalary(double salary){
 	this -> salary = salary;
 }
 
-double getSalary(){
+double stateSupervisor::getSalary(){
 	return salary;
 }
 
-void setBonus(double bonus){
+void stateSupervisor::setBonus(double bonus){
 	this -> bonus = bonus;
 }
 
-double getBonus(){
+double stateSupervisor::getBonus(){
 	return bonus;
 }

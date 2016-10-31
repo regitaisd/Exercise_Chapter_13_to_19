@@ -28,6 +28,7 @@ class productionWorker:public Employee{
 		productionWorker(string, int, int, int, double);
 		int getShift();
 		double getPay();
+		
 };
 
 #endif
